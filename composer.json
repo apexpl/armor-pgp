@@ -15,12 +15,13 @@
     "homepage": "https://apexpl.io",
     "license": "MIT",
     "require": {
-        "php": ">=8.0.0",
-        "apex/armor": "~0.1", 
+        "php": ">=8.0",
+        "apex/armor": "^2.0", 
         "ext-gnupg": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "apex/signer": "^2.0"
     }, 
     "autoload": {
         "psr-4": { 
